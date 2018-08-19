@@ -6,8 +6,13 @@ $db_password="123";
 $db_name="acompanamedb";
 $db_table_name="USUARIO";
 
+<<<<<<< HEAD
+//hola a Gilberto
+//hola desde GitHub
+=======
 
 //probando GitHub
+>>>>>>> master
 // ESTE SCRIPT ES SOLO DE PRUEBA NO USAR EN ACCION, AGREGAR UN CONTADOR DE FILAS Y UNA SETENCIA QUE BUSQUE EL CORREO Y USUARIO PARA NO REPETIR O CREAR CUENTAS DOBLES CON UN SOLO CORREO
 
    
