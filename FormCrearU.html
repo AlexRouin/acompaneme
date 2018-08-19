@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REGISTRO ACOMPAÑAME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+<P> SI NO DESEAS REGISTRATE, LLAMANOS Y TE AYUDAMOS A ENCONTRAR LA PERSONA QUE BUSCAS EN ESTE MOMENTO 664-585-85-85</P><BR><CENTER><P>HORARIO DE ATENCION 8 AM A 5 PM, WHATSAPP 24 HORAS</P></CENTER>
+
+
+
+<div>
+  <form action="CrearUBD.php" method="post">
+    <label for="usuario">USUARIO</label>
+    <input type="text"  name="usuario">
+
+    <label for="appaterno">Apellido Paterno</label>
+    <input type="text"  name="appaterno">
+    
+    <label for="apmaterno">Apellido Materno</label>
+    <input type="text"  name="apmaterno">
+
+  <label for="nombre">Nombre</label>
+    <input type="text"  name="nombre">
+
+  <label for="dia">FECHA DE NACIMIENTO</label>
+    <input type="FECHA"  name="dia" placeholder="Dia . . ">
+
+    <label for="lname"></label>
+    <input type="FECHA"  name="mes" placeholder="Mes formato 0-12" >
+
+    <label for="anno"></label>
+    <input type="FECHA"  name="anno" placeholder="Año (formato 4 digitos)">
+
+    <label for="cpostal">Codigo postal</label>
+    <input type="FECHA"  name="cpostal"><br>
+
+    <label for="ciudad">Ciudad</label>
+    <input type="text"  name="ciudad">
+
+    <label for="email">Correo electronico</label>
+    <input type="text"  name="email">
+
+    <label for="tusario">Tipo usuario</label>
+    <select id="country" name="tusuario">
+      <option value="acompanante">Acompañante</option>
+      <option value="patrocinador">Patrocinador</option>
+    </select>
+
+    <label for="pais">Tipo usuario</label>
+    <select id="country" name="pais">
+      <option value="acompanante">ESTADOS UNIDOS</option>
+      <option value="patrocinador">MEXICO</option>
+    </select>
+
+  <label for="pass">Contraseña</label>
+    <input type="text" name="pass" placeholder="Minimo 8 caracteres">
+
+    <label for="nomart">Nombre artistico</label>
+    <input type="text" name="nomart" placeholder="El nombre con el que otros usuarios de veran">
+
+
+
+    
+  
+    <input type="submit" value="REGISTRAR">
+  </form>
+</div>
+
+</body>
+</html>
