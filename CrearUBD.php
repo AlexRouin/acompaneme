@@ -11,7 +11,7 @@ $db_table_name="USUARIO";
 //probando GitHub
 // ESTE SCRIPT ES SOLO DE PRUEBA NO USAR EN ACCION, AGREGAR UN CONTADOR DE FILAS Y UNA SETENCIA QUE BUSQUE EL CORREO Y USUARIO PARA NO REPETIR O CREAR CUENTAS DOBLES CON UN SOLO CORREO
 
-
+//Marcos esta en el proyecto
 
    if(isset($_POST["usuario"])) { $usuario = $_POST["usuario"]; } else {$usuario ="";}
    if(isset($_POST["appaterno"])) { $Ap = $_POST["appaterno"]; } else {$Ap ="";}
