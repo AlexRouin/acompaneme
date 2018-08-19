@@ -6,11 +6,12 @@ $db_password="123";
 $db_name="acompanamedb";
 $db_table_name="USUARIO";
 
-//ULTIMA PRUEBA SATISFACTORIA 
+//ULTIMA PRUEBA SATISFACTORIA
+//RECIVI Y MANDO PRUEVA DE REGRSO GILBERTO-TIJUANA
 //probando GitHub
 // ESTE SCRIPT ES SOLO DE PRUEBA NO USAR EN ACCION, AGREGAR UN CONTADOR DE FILAS Y UNA SETENCIA QUE BUSQUE EL CORREO Y USUARIO PARA NO REPETIR O CREAR CUENTAS DOBLES CON UN SOLO CORREO
 
-   
+
 
    if(isset($_POST["usuario"])) { $usuario = $_POST["usuario"]; } else {$usuario ="";}
    if(isset($_POST["appaterno"])) { $Ap = $_POST["appaterno"]; } else {$Ap ="";}
@@ -30,7 +31,7 @@ $FECHA = $anno."-".$mes."-".$dia;
     if(isset($_POST["nomart"])) { $nomart = $_POST["nomart"]; } else {$nomart ="";}
     if(isset($_POST["pais"])) { $pais = $_POST["pais"]; } else {$pais ="";}
 
-    // Realizar REGISTRO 
+    // Realizar REGISTRO
 $sql = "INSERT INTO USUARIO(USUARIO,ApPaterno,ApMaterno,Nombre,FN,PAIS,CODIGO_POSTAL,CIUDAD,EMAIL,TIPO_USUARIO,PASSWORD,nomart) VALUES('".$usuario."','".$Ap."','".$Am."','".$nombre."','".$FECHA."','".$pais."',".$cp.",'".$cid."','".$email."','".$tu."','".$pass."','".$nomart."')";
 //imprimir lla consulta solo para pruebas
 //echo $sql;
@@ -51,10 +52,10 @@ if (!$resultado = $mysqli->query($sql)) {
      echo "Error: Fallo al conectarse a MySQL debido a: \n";
     echo "Errno: " . $mysqli->connect_errno . "\n";
     echo "Error: " . $mysqli->connect_error . "\n";
-    
+
     // Podría ser conveniente mostrar algo interesante, solo puse salir
     exit;
-    
+
 		} else{echo "registro exitoso";
 echo "<pre>";
      print_r($_POST);
