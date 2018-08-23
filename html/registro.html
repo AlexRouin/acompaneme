@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">	
+	
+</head>
+<body id="body_registro">
+
+<div class="container">
+	<div class="padding_contenido_form">
+		<div class="text-center">
+			<h4>
+				SI NO DESEAS REGISTRATE, LLAMANOS Y TE AYUDAMOS A ENCONTRAR LA PERSONA QUE BUSCAS EN ESTE MOMENTO 664-585-85-85</BR></BR>HORARIO DE ATENCION 8 AM A 5 PM, WHATSAPP 24 HORAS
+			</h4>
+		</div>
+		<form action="CrearUBD.php" method="post">
+			<div class="margin-top-2">
+				<div class="col-md-4">
+				    <label for="usuario">Usuario</label>
+				    <input class="form-control" type="text"  name="usuario">
+				</div>
+
+				<div class="col-md-4">
+					<label for="appaterno">Apellido Paterno</label>
+					<input class="form-control" type="text"  name="appaterno">
+				</div>
+
+				<div class="col-md-4">
+					<label for="apmaterno">Apellido Materno</label>
+					<input class="form-control" type="text"  name="apmaterno">
+				</div>				
+			</div>
+
+			<div class="pad-1">
+				<div class="col-md-4" >
+					<label for="nombre">Nombre</label>
+					<input class="form-control" type="text"  name="nombre">				
+				</div>				
+				<div class="col-md-4">
+					<label for="dia">Fecha de Nacimiento</label>
+					<input class="form-control" type="date"  name="fecha">				
+				</div>	
+				<div class="col-md-4">
+				    <label for="cpostal">Codigo postal</label>
+				    <input class="form-control" type="FECHA"  name="cpostal">				
+				</div>			
+			</div>
+
+			<div class="pad-1">
+				<div class="col-md-4" >
+				    <label for="ciudad">Ciudad</label>
+				    <input class="form-control" type="text"  name="ciudad">						
+				</div>				
+				<div class="col-md-4">
+				    <label for="email">Correo electronico</label>
+				    <input class="form-control" type="text"  name="email">								
+				</div>	
+				<div class="col-md-4">
+				    <label for="tusario">Tipo usuario</label>
+				    <select class="form-control" id="country" name="tusuario">
+				      <option value="acompanante">Acompañante</option>
+				      <option value="patrocinador">Patrocinador</option>
+				    </select>				
+				</div>			
+			</div>	
+
+			<div class="pad-1">
+				<div class="col-md-4" >
+				    <label for="pais">Tipo usuario</label>
+				    <select class="form-control" id="country" name="pais">
+				      <option value="acompanante">ESTADOS UNIDOS</option>
+				      <option value="patrocinador">MEXICO</option>
+				    </select>					
+				</div>				
+				<div class="col-md-4">
+					<label for="pass">Contraseña</label>
+					<input class="form-control" type="text" name="pass" placeholder="Minimo 8 caracteres">								
+				</div>	
+				<div class="col-md-4">
+					<label for="nomart">Nombre artistico</label>
+					<input class="form-control" type="text" name="nomart" placeholder="El nombre con el que otros usuarios de veran">			
+				</div>			
+			</div>	
+
+			<div class="text-center pad-1 ">
+				<p>
+					<strong>Certifico que soy mayor de 18 años de edad y que he leído y estoy de acuerdo con la <a href="aviso_legal.html">Póliza de Privacidad</a> y los y <a href="#" >Términos y Condiciones</a> de acompañeme.com</strong>
+				</p>
+			</div>
+
+			<div class="pad-2 text-center" >
+				<button class="btn4 btn-primary" type="submit"  style="">REGISTRO</button>				
+			</div>
+			
+		</form>
+
+	</div>
+</div>
+
+</body>
+</html>
